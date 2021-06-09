@@ -1,7 +1,7 @@
 #!bin/bah/test2.sh
 clear
 
-for i in {0000..1000}
+for i in {0000..3000}
 do
 
 

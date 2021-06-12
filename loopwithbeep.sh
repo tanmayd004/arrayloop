@@ -4,10 +4,7 @@ clear
 for i in {0000..1000}
 do
 
-
-   echo -e "\e[5;49;96m$i\e[0m"
+toilet -f mono12 -F border $i | lolcat
    play beep-21.wav
-   
-
 
 done
